@@ -1,0 +1,27 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.AppCompat.Light.NoActionBar.FullScreen" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="colorPrimary">#2196F3</item>
+        <item name="android:fitsSystemWindows">false</item>
+    </style>
+
+    <style name="MyAppThemeFour" parent="Theme.AppCompat.Light">
+        <item name="android:timePickerDialogTheme">@style/MyTimePickerDialogStyle</item>
+    </style>
+
+    <style name="MyTimePickerDialogStyle" parent="@style/ThemeOverlay.AppCompat.Dialog.Alert">
+        <item name="showTitle">false</item>
+        <item name="android:textColorPrimary">#22FFED</item>
+        <item name="android:textColorSecondary">#AA9E79</item>
+    </style>
+    <style name="SwitchThemeOverlay" parent="">
+        <!-- active thumb & track color (30% transparency) -->
+        <item name="colorControlActivated">#01E1CE</item>
+    </style>
+
+</resources>
